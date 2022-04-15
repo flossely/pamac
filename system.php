@@ -78,7 +78,7 @@ if (file_exists('sounds')) {
 </head>
 <body>
 <?php foreach ($obj as $key=>$value) { ?>
-<img style="width:9%;" title="<?=ucfirst($key);?>" onmouseover="playAudio(soundPlayer, '<?=$value.'.flac';?>?rev=<?=time();?>');" src="<?='sys.'.$key.'.png';?>">
+<img style="width:9%;" title="<?=ucfirst($key);?>" onmouseover="playAudio(soundPlayer, '<?=$value.'.flac';?>?rev=<?=time();?>');" src="<?='sys.'.$key.'.png';?>?rev=<?=time();?>">
 <?php } ?>
 <audio id="soundPlayer" <?php if (!$sounds) { ?>muted="muted"<?php } ?>>
 </body>
