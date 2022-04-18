@@ -1,5 +1,6 @@
 <?php
 $dir = '.';
+include 'syspkg.php';
 $obj =
 [
     'airplane' => 'notify',
@@ -59,11 +60,6 @@ $obj =
     'vid' => 'shutdown',
     'wr' => 'shutdown',
 ];
-if (file_exists('sounds')) {
-    $sounds = boolval(file_get_contents('sounds'));
-} else {
-    $sounds = false;
-}
 ?>
 <html>
 <head>
