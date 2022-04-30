@@ -9,8 +9,7 @@ $list = str_replace($dir.'/','',(glob($dir.'/*.pkg')));
 <title>Package Manager</title>
 <link rel="shortcut icon" href="sys.deadbeef.png?rev=<?=time();?>" type="image/x-icon">
 <link href="system.css?rev=<?=time();?>" rel="stylesheet">
-<script src="jquery.js?rev=<?=time();?>"></script>
-<script src="base.js?rev=<?=time();?>"></script>
+<?php include 'base.incl.php'; ?>
 </head>
 <body>
 <div class='top'>
