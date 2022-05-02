@@ -7,7 +7,7 @@ $list = str_replace($dir.'/','',(glob($dir.'/*.pkg')));
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta charset="UTF-8">
 <title>Package Manager</title>
-<link rel="shortcut icon" href="sys.deadbeef.png?rev=<?=time();?>" type="image/x-icon">
+<link rel="shortcut icon" href="sys.pkg.png?rev=<?=time();?>" type="image/x-icon">
 <link href="system.css?rev=<?=time();?>" rel="stylesheet">
 <?php include 'base.incl.php'; ?>
 </head>
